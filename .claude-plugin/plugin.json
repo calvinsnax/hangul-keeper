@@ -1,0 +1,16 @@
+{
+  "name": "hangul-keeper",
+  "description": "한국어로 대화하는 동안 Claude가 영어로 답하지 못하게 붙잡는 훅 플러그인.",
+  "version": "0.1.0",
+  "author": {
+    "name": "calvinsnax"
+  },
+  "license": "MIT",
+  "keywords": [
+    "korean",
+    "hangul",
+    "language",
+    "hooks"
+  ],
+  "homepage": "https://github.com/calvinsnax/hangul-keeper"
+}

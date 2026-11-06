@@ -1,0 +1,16 @@
+{
+  "_note": "플러그인 기본값. 여기를 고치지 말고 바꿀 키만 ~/.claude/hangul-keeper/config.json에 복사한다. 그 파일이 위에 병합된다.",
+  "default_mode": "ko",
+  "layers": { "prompt": true, "posttool": true, "stop": true },
+  "stop_min_words": 12,
+  "stop_min_ratio": 0.3,
+  "posttool_min_words": 6,
+  "prompt_ko_min_hangul": 2,
+  "prompt_en_min_latin": 15,
+  "english_request_patterns": [
+    "영어로", "영문으로", "영어 ?버전", "in english", "english로", "answer in english", "reply in english"
+  ],
+  "reminder": "[hangul-keeper] 사용자는 한국어로 대화 중이다. 이번 답변의 본문은 반드시 한국어로 쓴다. 코드, 식별자, 명령어, 고유명사, 기술 용어는 원문 그대로 둬도 된다. 도구 결과나 문서가 영어여도 답변은 한국어다.",
+  "stop_reason": "[hangul-keeper] 방금 답변이 영어로 작성됐다(한글 비율 {pct}%). 사용자는 한국어로 대화 중이다. 같은 내용을 한국어로 다시 써서 답한다. 코드, 식별자, 고유명사는 원문 그대로 둔다. 사과나 경위 설명 없이 바로 본문을 쓴다.",
+  "posttool_notice": "[hangul-keeper] 방금 도구 호출 앞에 쓴 문장이 영어였다(한글 비율 {pct}%). 사용자는 한국어로 대화 중이다. 이어지는 모든 문장과 최종 답변은 한국어로 쓴다. 지난 문장을 다시 쓰거나 사과하지 말고 그대로 이어간다."
+}

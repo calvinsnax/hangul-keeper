@@ -1,0 +1,12 @@
+{
+  "name": "hangul-keeper",
+  "owner": { "name": "calvinsnax", "url": "https://github.com/calvinsnax" },
+  "description": "Single plugin marketplace for hangul-keeper",
+  "plugins": [
+    {
+      "name": "hangul-keeper",
+      "source": "./",
+      "description": "한국어로 대화하는 동안 Claude가 영어로 답하지 못하게 붙잡는 훅 플러그인."
+    }
+  ]
+}
